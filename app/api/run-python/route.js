@@ -12,7 +12,7 @@ export async function POST(request) {
 
   try {
     const { code } = await request.json();
-    console.log("CODE", code);
+    // console.log("CODE", code);
 
     const submissionResponse = await fetch(`${JUDGE0_API_URL}/submissions?wait=true`, {
       method: 'POST',
