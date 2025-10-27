@@ -1,7 +1,7 @@
 "use client"; // Next.js 13+ app directory จำเป็นถ้าใช้ client component
 
-import React, { useRef, useState } from "react";
-import Editor, { OnChange, EditorProps } from "@monaco-editor/react";
+import React, { useRef } from "react";
+import Editor, { OnChange } from "@monaco-editor/react";
 
 interface CodeEditorProps {
   language?: string;

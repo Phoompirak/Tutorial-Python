@@ -1,8 +1,7 @@
 "use client";
 
 import React from "react";
-import { FaHome, FaUser, FaCog, FaTimes } from "react-icons/fa";
-import { FaHamburger } from "react-icons/fa";
+import { FaHome, FaUser, FaCog, FaHamburger } from "react-icons/fa";
 
 interface SidebarProps {
   isOpen: boolean;

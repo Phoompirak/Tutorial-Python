@@ -6,7 +6,6 @@ import Image from 'next/image'
 import { FaHamburger } from "react-icons/fa";
 
 import Sidebar from "./Sidebar";
-import { FaBars } from "react-icons/fa";
 
 const Navbar = () => {
     const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
